@@ -2,9 +2,9 @@
 
 ---
 
-Este projeto será meu fututo novo portfólio.
+Este projeto será meu futuro novo portfólio.
 
-## 🚀 Pensando o projeto...
+## 🚀 Pensando no projeto...
 
 ## 📋 Tecnologias
 Vite + React + 
