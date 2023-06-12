@@ -4,7 +4,7 @@ const FloatingNav = () => {
   return (
     <>
         <nav className="floatingNav" id="floatingNav">
-          <h1>Floating Nav</h1>
+          <h2>Floating Nav</h2>
         </nav>
     </>
   )
