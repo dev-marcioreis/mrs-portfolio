@@ -1,8 +1,14 @@
-import React from 'react'
+import Pages from "./Pages"
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <main className='main'>
+        <div className="container">
+          <Pages />
+        </div>
+      </main>
+    </>
   )
 }
 
