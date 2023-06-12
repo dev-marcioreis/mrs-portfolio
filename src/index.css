@@ -16,15 +16,26 @@
 /*==========Root==========*/
 :root {
 
-  --color-dark: hsl(0, 0%, 13%);
-  --color-black: hsl(0, 0%, 0%);
-  --color-white: hsl(0, 0%, 100%);
+  --primary-hue: 270%;
+  --black-light: 15%;
+  --dark-light: 44%;
+  --light-lightness: 94%;
+  --white-light: 100%;
+  --color-primary: hsl(var(--primary-hue), 89%, 41%);
+  --color-white: hsl(0.5%, var(--white-light));
+  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+  --color-black: hsl(var(--primary-hue), 5%, var(--black-light));
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-light));
+
+  --color-dark-2: hsl(0, 0%, 13%);
+  --color-black-2: hsl(0, 0%, 0%);
+  --color-white-2: hsl(0, 0%, 100%);
   --color-transparent: hsla(0, 0%, 100%, 0);
 
   --font-size: .9rem;
   --line-height: 1.6;
 
-  --transition: all 400ms ease-in-out;
+  --transition: all 500ms ease;
 
   --container-lg: 80%;
   --container-md: 90%;
@@ -32,6 +43,10 @@
 
   --shadow: 0px 1px 3px hsla(0, 0%, 0%, 0.5);
   --shadow-1: 0px 3px 6px hsla(0, 0%, 0%, 0.4);
+
+  --border-r-1: 1.2rem;
+  --border-r-2: .8rem;
+  --border-r-3: .5rem;
 
 }
 
@@ -41,8 +56,8 @@ html {
   scroll-padding-top: 5rem;
 }
 body {
-  background: var(--color-white);
-  color: var(--color-dark);
+  background: var(--color-white-2);
+  color: var(--color-dark-2);
   line-height: var(--line-height);
   font-size: var(--font-size);
 }
@@ -50,10 +65,10 @@ body {
   width: .5rem;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-white)
+  background: var(--color-white-2)
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-dark);
+  background: var(--color-dark-2);
 }
 .container {
   width: var(--container-lg);
@@ -79,7 +94,7 @@ h4, h5, h6 {
   font-weight: 300;
 }
 a {
-  color: var(--color-dark);
+  color: var(--color-dark-2);
 }
 img {
   width: 100%;
