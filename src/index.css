@@ -109,7 +109,7 @@ h6 {
   font-size: .8rem;
 }
 a {
-  color: var(--color-white);
+  color: var(--color-dark);
   transition: var(--transition);
 }
 img {
