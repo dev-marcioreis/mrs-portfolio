@@ -12,7 +12,7 @@ Vite + React + React hooks + React portals + Swiperjs
 ## ✒️ Autor
 Márcio Reis
 
-😊 Link de acesso: https://dev-marcioreis.github.io/mrs-portfolio/![image]
+😊 Link de acesso: https://dev-marcioreis.github.io/mrs-portfolio/
 
 
 ---
