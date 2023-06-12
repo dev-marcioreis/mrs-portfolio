@@ -162,20 +162,21 @@ img {
 
 /*==========Media Query Tablet==========*/
 @media (max-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
   .container{
       width: var(--container-md);
   }
+  section {
+    padding: 8rem 0;
+  }
+  section > p {
+    width: 72%;
+    margin-bottom: 3rem;
+  }
   h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-      font-size: 1.5rem;
-  }
-  h3 {
-      font-size: 1.2rem;
-  }
-  h5 {
-      font-size: .8rem;
+    font-size: 2rem;
   }
 
 }
@@ -183,7 +184,22 @@ img {
 /*==========Media Query Mobile==========*/
 @media (max-width: 768px) {
   h1 {
-      font-size: 2rem;
+      font-size: 2.4rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .btn {
+    padding: .6rem 1.5rem;
+  }
+  section > p {
+    width: var(--container-md);
   }
 
 }
