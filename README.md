@@ -2,7 +2,8 @@
 
 ---
 
-Este projeto será meu futuro novo portfólio.
+Este projeto será meu futuro novo portfólio.<br>
+Sem tempo para finalizar neste momento.
 
 ## 🚀 Pensando no projeto...
 
