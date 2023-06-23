@@ -5,10 +5,10 @@
 Este projeto será meu futuro novo portfólio.<br>
 Sem tempo para finalizar neste momento.
 
-## 🚀 Pensando no projeto...
+## 🚀 Parado...
 
 ## 📋 Tecnologias
-Vite + React + React hooks + React portals + Swiperjs + React icons
+Vite + React + React hooks + Swiperjs + React icons
 
 ## ✒️ Autor
 Márcio Reis
